@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Selects from './Components/Main';
 
 function App() {
   return (
     <div className="App">
-      
+      <Selects />      
     </div>
   );
 }

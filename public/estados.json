@@ -1,0 +1,19 @@
+[
+    {
+    "uf": "",
+    "nome": "Escolha um estado"
+},
+{
+    "uf": "sp",
+    "nome": "São Paulo"
+},
+{
+    "uf": "rj",
+    "nome": "Rio de Janeiro"
+},
+{
+    "uf": "mg",
+    "nome": "Minas Gerais"
+}
+]
+

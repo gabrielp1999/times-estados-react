@@ -1,0 +1,78 @@
+[
+  {
+      "estado": "mg",
+      "time": "Selecionar time",
+      "sigla": ""
+  },
+  {
+    "estado": "sp",
+    "time": "Selecionar time",
+    "sigla": ""
+  },
+
+  {
+    "estado": "rj",
+    "time": "Selecionar time",
+    "sigla": ""
+  },
+    {
+        "estado": "mg",
+        "time": "América Mineiro",
+				"sigla": "AME"
+    },
+    {
+        "estado": "mg",
+        "time": "Atético Mineiro",
+				"sigla": "CAM"
+    },
+    {
+        "estado": "mg",
+        "time": "Cruzeiro",
+				"sigla": "CRU"
+    },
+    {
+        "estado": "mg",
+        "time": "Betim",
+				"sigla": "BET"
+    },
+    {
+        "estado": "sp",
+        "time": "São Paulo",
+				"sigla": "SAO"
+    },
+    {
+        "estado": "sp",
+        "time": "Santos",
+				"sigla": "SAN"
+    },
+    {
+        "estado": "sp",
+        "time": "Palmeiras",
+				"sigla": "PAL"
+    },
+    {
+        "estado": "sp",
+        "time": "Corinthians",
+				"sigla": "COR"
+    },
+    {
+        "estado": "rj",
+        "time": "Flamengo",
+				"sigla": "FLA"
+    },
+    {
+        "estado": "rj",
+        "time": "Fluminense",
+				"sigla": "FLU"
+    },
+    {
+        "estado": "rj",
+        "time": "Bota fogo",
+				"sigla": "BOT"
+    },
+    {
+        "estado": "rj",
+        "time": "Vasco da gama",
+				"sigla": "VAS"
+    }
+]
