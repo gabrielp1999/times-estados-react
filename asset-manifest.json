@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/times-estados-react/static/css/main.fe262ce0.css",
+    "main.css": "/times-estados-react/static/css/main.0355c5dc.css",
     "main.js": "/times-estados-react/static/js/main.77840c18.js",
     "static/js/787.7879dbc0.chunk.js": "/times-estados-react/static/js/787.7879dbc0.chunk.js",
     "index.html": "/times-estados-react/index.html",
-    "main.fe262ce0.css.map": "/times-estados-react/static/css/main.fe262ce0.css.map",
+    "main.0355c5dc.css.map": "/times-estados-react/static/css/main.0355c5dc.css.map",
     "main.77840c18.js.map": "/times-estados-react/static/js/main.77840c18.js.map",
     "787.7879dbc0.chunk.js.map": "/times-estados-react/static/js/787.7879dbc0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe262ce0.css",
+    "static/css/main.0355c5dc.css",
     "static/js/main.77840c18.js"
   ]
 }
