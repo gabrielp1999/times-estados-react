@@ -25,6 +25,8 @@ img{
 }
 select {
   margin-left: 10px;
+  color: black;
+  background-color: #fff;
 }
 label{
   font-weight: bold;
