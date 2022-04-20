@@ -14,6 +14,7 @@ body {
   padding: 10px;
   gap: 10px;
   flex-direction: column;
+  color: #fff;
 }
 .card{
   display: flex;
@@ -21,7 +22,6 @@ body {
 }
 img{
   height: 220px;
-  width: 220px;
 }
 select {
   margin-left: 10px;
