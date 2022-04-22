@@ -39,7 +39,7 @@ function Selects() {
     <>
       <div className='selects'>
         <div className="card">
-          <label>Estados</label>
+          <label className='title'>Estados</label>
           <select 
             name="select"
             onChange={changeState}>
@@ -50,8 +50,9 @@ function Selects() {
         </div>
 
         <div className="card">
-          <label>Times</label>
+          <label className='title'>Times</label>
           <select 
+          className='selects1'
             onChange={changeTeam}
             name="select">
               {teamList.map((team) => (
