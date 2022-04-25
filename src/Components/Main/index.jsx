@@ -7,9 +7,10 @@ function Selects() {
   const [teamList, setTeamList] = useState([]);
   const [selectedUf, setSelectedUf] = useState();
   const [imgTeam, setImgTeam] = useState('');
+  const [url, setUrl] = useState(`https://timesjs.herokuapp.com`);
 
   useEffect(() => {
-    axios.get(`https://timesjs.herokuapp.com/estados`).then((response) => {
+    axios.get(`${url}/estados`).then((response) => {
       setUfList(response.data);
       const getState = response.data.find( e => {
         return e;
@@ -20,7 +21,7 @@ function Selects() {
 
   useEffect(() => {
     if(selectedUf){
-      axios.get(`https://timesjs.herokuapp.com/times/${selectedUf}`).then((response) => {
+      axios.get(`${url}/times/${selectedUf}`).then((response) => {
         setTeamList(response.data);
         setImgTeam(response.data[0].url);
       });
@@ -41,6 +42,7 @@ function Selects() {
         <div className="card">
           <label className='title'>Estados</label>
           <select 
+            className='selects1'
             name="select"
             onChange={changeState}>
               {ufList.map((estado) => (
@@ -52,7 +54,7 @@ function Selects() {
         <div className="card">
           <label className='title'>Times</label>
           <select 
-          className='selects1'
+            className='selects1'
             onChange={changeTeam}
             name="select">
               {teamList.map((team) => (
